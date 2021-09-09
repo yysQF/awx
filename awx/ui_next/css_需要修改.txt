@@ -1,0 +1,30 @@
+.pf-c-radio.pf-m-standalone{
+	 /* --pf-c-radio--GridGap: 0; */
+    --pf-c-radio__input--Height: auto;
+    --pf-c-radio__input--MarginTop: 0;
+    display: inline-grid;
+    grid-: auto;
+    align-items: center;
+    line-height: 1;
+}
+
+.pf-c-radio {
+  --pf-c-radio--GridGap: var(--pf-global--spacer--xs) var(--pf-global--spacer--sm);
+  --pf-c-radio__label--disabled--Color: var(--pf-global--disabled-color--100);
+  --pf-c-radio__label--Color: var(--pf-global--Color--100);
+  --pf-c-radio__label--FontWeight: var(--pf-global--FontWeight--normal);
+  --pf-c-radio__label--FontSize: var(--pf-global--FontSize--md);
+  --pf-c-radio__label--LineHeight: var(--pf-global--LineHeight--sm);
+  --pf-c-radio__input--MarginTop: -0.1875rem;
+  --pf-c-radio__input--first-child--MarginLeft: 0.0625rem;
+  --pf-c-radio__input--last-child--MarginRight: 0.0625rem;
+  --pf-c-radio__description--FontSize: var(--pf-global--FontSize--sm);
+  --pf-c-radio__description--Color: var(--pf-global--Color--200);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: var(--pf-c-radio--GridGap);
+  align-items: center;
+  justify-items: start; 
+}
+
+   
